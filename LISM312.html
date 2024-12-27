@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Libraries and Repositories</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body, html {
+	height: 100%;
+	font-family: "Georgia", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+.dropdown {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.dropdown button {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown button:hover {
+	background-color: #555;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 200px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.header-text {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header-address {
+	text-align: right;
+	padding: 16px;
+	color: white;
+}
+
+.section {
+	padding: 64px 16px;
+	display: none;
+}
+
+#sci-tech img {
+	height: 240px;
+	width: 420px;
+	max-width: 100%;
+}
+
+.w3-sand {
+	background-color: #f5f5f5;
+	color: #333;
+}
+
+footer {
+	background-color: #f5f5f5;
+	color: #333;
+	padding: 48px 16px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.w3-row {
+	flex-direction: column;
+  }
+
+#about {
+	display: block;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Dropdown Menu -->
+<div class="dropdown">
+	<button>What's the Big Deal?</button>
+	<div class="dropdown-content">
+		<a href="javascript:void(0)" onclick="changeContent('about');">Digital Libraries and Repositories</a>
+		<a href="javascript:void(0)" onclick="changeContent('evolution');">Evolution</a>
+		<a href="javascript:void(0)" onclick="changeContent('sci-tech');">Sci-Tech Libraries</a>
+		<a href="javascript:void(0)" onclick="changeContent('benefits');">Benefits and Challenges</a>
+	</div>
+	</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home" style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.expresscomputer.in%2Fguest-blogs%2Fempowering-digital-libraries-and-publishing-unveiling-a-new-chapter-in-literary-access-and-innovation-amandeep-kochar%2F109561%2F&psig=AOvVaw2vSCisRB_NvWG_3Ts9H25C&ust=1734567225710000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDTos6EsIoDFQAAAAAdAAAAABAE); background-position: center; background-size: contain; background-repeat: no-repeat; width: 100%; height: 50vh;">
+	<div>
+		<span class="header-text">DIGITAL LIBRARIES AND REPOSITORIES</span>
+	</div>
+</header>
+
+<!-- Main Content Section -->
+<div class="w3-sand w3-large">
+
+<!-- About Section -->
+	<div class="w3-container section" id="about">
+		<div class="w3-content" style="max-width:700px">
+		<div class="w3-panel w3-leftbar w3-light-grey">
+			<p><i>"The digital library is not just a repository of information, but a dynamic space for learning and collaboration."</i></p>
+		</div><br>
+			<p>In today’s digital age, both digital libraries and institutional repositories play crucial roles in the management and dissemination of information. While they may seem similar, they serve distinct purposes.</p>
+			<br>
+			<p>Digital libraries are designed to provide access to a wide range of digital materials, including books, journals, multimedia, and databases. They are often created to support education, research, and general information-seeking needs. Users can access diverse content that extends beyond the institution’s resources, serving the wider community.</p>
+			<p>These libraries prioritize the collection, organization, and preservation of digital content from a variety of sources. They also use metadata to improve searchability, allowing users to quickly find what they are looking for. Often, these digital libraries are maintained by academic or public institutions to serve students, researchers, and the public.</p>
+			<br>
+			<p>Institutional repositories have a more specific focus. They are designed to capture, preserve, and share the scholarly work of an institution’s community. This includes research articles, dissertations, conference papers, and other academic materials produced by faculty, researchers, and students. The primary goal is to showcase the institution's academic output to a global audience.</p>
+			<p>Institutional repositories emphasize the long-term preservation of intellectual output. They often integrate with the institution’s research management systems and use highly structured metadata to ensure the content is organized and easily retrievable. These repositories play a critical role in preserving the academic legacy of an institution.</p>
+			<br><p>While both digital libraries and institutional repositories focus on managing digital content, their purposes and approaches differ. Digital libraries provide a broad range of resources, while institutional repositories are tailored to preserving and showcasing the academic contributions of a specific institution.</p>
+		</div>
+	</div>
+
+<!-- Evolution Section -->
+	<div class="w3-container section" id="evolution">
+		<div class="w3-content" style="max-width:700px">
+		<h2><b><i>Evolution of Collection Management</i></b></h2>
+		<br><p>The evolution of collection management in libraries with digital content in the Philippine context has been shaped by various factors, including technological advancements, changing user needs, and the impact of the COVID-19 pandemic.</p>
+		<p>Libraries have transitioned from managing physical collections to incorporating digital resources. This shift has involved digitizing existing collections and acquiring born-digital materials.Librarians now play a crucial role in managing digital collections, including website maintenance, digital curation, and teaching users how to navigate digital resources.</p>
+			<ul>
+				<p><i>Digitization Initiatives</i></p>
+				<p>Many Philippine academic libraries have initiated digitization programs to convert physical collections into digital formats. This process has been driven by the need to preserve valuable materials and make them more accessible to users.</p>
+				<p><i>Digital Library Services</i></p>
+				<p>The shift from traditional to digital library services has been significant. Libraries now offer access to e-books, e-journals, electronic theses and dissertations, digital archives, and institutional repositories. These services have become essential, especially during the pandemic when remote access to resources was crucial</p>
+				<p><i>Collaboration and Consortia</i></p>
+				<p>Libraries can collaborate with other institutions and join consortia to share resources, expertise, and facilities. This can help overcome some of the challenges related to funding and infrastructure.</p>
+			</ul>
+	  <p>The evolution of collection management in Philippine libraries reflects a broader trend towards digital transformation in the library sector. By adopting innovative strategies and addressing challenges, libraries can continue to provide valuable services to their communities.</p>
+		</div>
+	</div>
+
+<!-- Sci-Tech Libraries Section -->
+	<div class="w3-container section" id="sci-tech">
+		<div class="w3-content" style="max-width:700px">
+			<h2><b><i>Sci-Tech Libraries in the Philippines</i></b></h2>
+			
+			<br><p>In the Philippines, Sci-Tech libraries are key to supporting research in fields like engineering, agriculture, healthcare, and technology. The integration of electronic resources has significantly enhanced research capabilities, allowing Filipino researchers to stay competitive globally.</p>
+			<p>Electronic resources provide Filipino researchers with access to specialized research tools such as citation databases (e.g., Scopus, Google Scholar), statistical software, and scientific data repositories. These resources allow researchers in the Philippines to conduct in-depth analyses and collaborate with peers from around the world.</p>
+			<p>With digital resources, Filipino researchers can access information quickly and efficiently, without the barriers of traditional print media. This has greatly sped up the research process, helping researchers focus on analysis and innovation rather than searching for materials.</p>
+
+			<h3><b>Digital Library Initiatives and Institutional Repository Projects</b></h3>
+			<ol>
+			<li><a href="https://www.filipinaslibrary.org.ph/online-library/"><i>Filipinas Heritage Library</i></a></li>
+			<img src="https://drive.google.com/thumbnail?id=1HMIRIDZj7dGLVgGOXBaGkPi-0GIe4_wo" style="display:block; margin:auto;" alt="Filipinas Heritage Library">		
+			<p>This library, part of the Ayala Foundation, focuses on books and materials authored by Filipinos or about the Philippines, with an emphasis on Philippine history and culture. They have an online library with digitized materials organized by subject, such as anthropology, art, biography, and historical documents. The library's digital collections are accessible online, providing valuable resources for researchers and the general public.</p>
+			
+			<li><a href="https://digilib.ust.edu.ph/"><i>UST Heritage Collections</i></a></li>
+			<img src="https://drive.google.com/thumbnail?id=1lBDTBjQ1uYGKkjTWpmOoQRi5T4x58lMc" style="display:block; margin:auto;" alt="UST Heritage Collections">
+			<p>The University of Santo Tomas (UST) in Manila has digitized its rare and historical materials. The UST Heritage Collections include a digital repository created for preservation and to provide users with a trusted digital library that supports information discovery. These collections are available online, making rare and historical materials accessible to a wider audience.</p>
+
+			<li><a href="https://elibrary.pcaarrd.dost.gov.ph/home"><i>DOST PCAARRD eLibrary</i></a></li>
+			<img src="https://drive.google.com/thumbnail?id=18bGqhM0f_AJAHRmUXu_f3DDFcFb_Hk1M" style="display:block; margin:auto;" alt="DOST PCAARRD eLibrary">
+			<p>The Department of Science and Technology – Philippine Council for Agriculture, Aquatic, and Natural Resources Research and Development (DOST-PCAARRD) has an online library that includes research, publications, technical reports, and other resources. Users can create an account to access the library materials, which are available to scientists, researchers, and the general public.</p> 
+
+			<li><a href="https://repository.upou.edu.ph/community-list"><i>UPOU Repository</i></a></li>
+			<img src="https://drive.google.com/thumbnail?id=1SX9Ukf7ekmr4FOAKzQTA7wm8oE1XdwVQ" style="display:block; margin:auto;" alt="UPOU Repository">
+			<p>The University of the Philippines Open University (UPOU) has an institutional repository called UPLOAD. It includes digital copies of scholarly outputs from the UPOU community, such as graduate theses and dissertations, conference papers, working reports, and other similar works. The repository is designed to make UPOU research outputs more useful and accessible to the public, especially the academic community</p>
+
+			<li><a href="https://repository.cpu.edu.ph/"><i>BAHÁNDÌAN Repository</i></a></li>
+			<img src="https://drive.google.com/thumbnail?id=1rpMA8BTIDh8o2i4DqOMr8Lg1NIsJ1bfj" style="display:block; margin:auto;" alt="BAHÁNDÌAN Repository">
+			<p>Central Philippine University (CPU) has an institutional repository called BAHÁNDÌAN, which manages, disseminates, and preserves digital materials representing the scholarly work of the academic community and its affiliates. The repository provides open, online access to the university's research and scholarship, promoting new models of scholarly communication and preserving these works for future generations.</p>
+			</ol>
+		</div>
+	</div>
+
+<!-- Benefits and Challenges Section -->
+	<div class="w3-container section" id="benefits">
+		<div class="w3-content" style="max-width:700px">
+		<h2><b><i>Benefits and Challenges of Institutional Repositories in Philippine Academic Institutions</i></b></h2>
+		
+		<br><p>Institutional repositories have become a key component of academic institutions, providing a platform for preserving and sharing scholarly work. This page explores the benefits and challenges of institutional repositories in higher education. By making scholarly work available online, institutional repositories increase the visibility of research. This greater visibility can lead to more citations, collaborations, and ultimately, a greater impact for both the researcher and the institution.</p>
+		<p>These are designed for the long-term preservation of digital materials. By safeguarding research outputs like theses, dissertations, and articles, they ensure that valuable academic work is not lost over time. One of the most significant advantages of institutional repositories is that they promote open access. By making research freely available to the public, they support the democratization of knowledge and allow researchers worldwide to benefit from the work produced at the institution.</p>
+		<br><p>However, developing and maintaining an institutional repository requires significant resources, including funding and staffing. Many institutions, particularly smaller ones, may struggle to allocate sufficient resources for their repositories.</p>
+		<p>Managing large volumes of data, ensuring that metadata is accurate and consistent, and maintaining proper organization are ongoing challenges. Without proper management, the repository can become disorganized and difficult to use.</p>
+		<p>Institutional repositories must stay up-to-date with technological advancements. This includes ensuring that the repository’s infrastructure is secure, functional, and capable of handling increasing volumes of data.</p>
+		<br><p>Institutional repositories offer immense benefits to academic institutions, from increasing research visibility to promoting open access. However, overcoming the challenges of resource allocation, data management, and technological upkeep is essential for their success.</p>
+		
+		</div>
+	</div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>Created by Gemini J. Saballegue</a></p>
+</footer>
+
+<script>
+// switch between sections
+function changeContent(sectionId) {
+  var sections = document.getElementsByClassName('section');
+  for (var i = 0; i < sections.length; i++) {
+    sections[i].style.display = 'none'; // hide sections
+  }
+  document.getElementById(sectionId).style.display = 'block'; // show selected section
+}
+
+// 'about' section as main page
+document.getElementById('about').style.display = 'block';
+</script>
+
+</body>
+</html>
